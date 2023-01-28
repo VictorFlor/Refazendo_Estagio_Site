@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="splide/dist/css/splide.min.css">
+    <script type="text/javascript" src="splide/dist/js/splide.min.js"></script>
+    <script src="https://kit.fontawesome.com/008b8bd2cc.js" crossorigin="anonymous"></script>
+    
+    <title>residuum</title>
+</head>
+<body>
+
+    <div class="head">
+        <img src="Img/residuum-padrao1.png">
+        <nav>
+            <label for="rd_home"><i class="fas fa-home"></i>HOME </label>
+            <label for="rd_sobre">SOBRE</label>
+            <label for="rd_serv">SERVIÇOS</label>
+            <label for="rd_diff">DIFERENCIAIS</label>
+            <label for="rd_merc">MERCADOS</label>
+            <label for="rd_time">TIME</label>
+            <label for="rd_cont">CONTATO</label>
+        </nav>
+    </div>
+
+    <div class="scroll">
+        <input type="radio" name="grupo" class="escdbtn" id="rd_home" checked="true">
+        <input type="radio" name="grupo" class="escdbtn" id="rd_sobre" checked="true">
+        <input type="radio" name="grupo" class="escdbtn" id="rd_serv" checked="true">
+        <input type="radio" name="grupo" class="escdbtn" id="rd_diff" checked="true">
+        <input type="radio" name="grupo" class="escdbtn" id="rd_merc" checked="true">
+        <input type="radio" name="grupo" class="escdbtn" id="rd_time" checked="true">
+        <input type="radio" name="grupo" class="escdbtn" id="rd_cont" checked="true">
+    
+        <section class="sections">
+            <section class="bloco" id="home">
+                <div class="homesec">
+                    <div>
+                        <h1><span>RE</span>DUZIR & <br>
+                            <span>RE</span>USAR & <br>
+                            <span>RE</span>CICLAR & <br>
+                            <span>RE</span>DISTRIBUIR</h1>
+                    </div>
+                    <div class="separar">
+                        <img src="img/Minimalist-Showcase-Project-Presentation.webp">
+                        <div class="blogcont">
+                            <button class="blog"><a href="#">Blog</a></button>
+                            <button class="cont"><a href="#">Contato</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bloco" id="sobre">
+                <div class="splide">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <li class="splide__slide">
+                                <div id="sobre1">
+                                    <h1 id="titulo">ECONOMIA CIRCULAR</h1>
+                                    <div id="sobre1_texto">
+                                        <h1>A Economia Circular engloba manter os <br>
+                                            recursos em uso o maior tempo possível, <br>
+                                            minimizando sua disposição, utilizando de <br> 
+                                            maneira mais eficiente além de recuperar  <br>
+                                            e regenerar produtos e materiais em todo  <br>
+                                            o seu ciclo de vida.
+                                        </h1>
+                                    </div>
+                                    <div id="sobre1_bckgrd"><img src="img/sobre1.webp" alt=""></div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div id="sobre2">
+                                    <div id="sobre2_bckgrd"><img src="img/sobre2.webp" alt=""></div>
+                                    <div id="sobre2_texto">
+                                        <h1>A Residuum nasceu para resolver um <br>
+                                            problema latente no mundo que é a <br>
+                                            disposição inadequada dos resíduos <br>
+                                            sólidos no meio ambiente.<br>
+                                            E para resolver esse problema , criamos <br>
+                                            uma metodologia eficaz, que através <br>
+                                            da tecnologia, gerenciamos o ciclo de vida<br> 
+                                            de todos os produtos pós-consumo e a sua <br>
+                                            destinação ambientalmente correta.<br>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    new Splide(".splide",{
+                        type:"loop",
+                        PerPage:3,
+                        autoplay:true,
+                    }).mount();
+                </script>
+            </section>
+            <section class="bloco" id="serv">
+                <div class="servdiv">
+                    <div id="titserv"><h1 id="tith1">PRODUTOS E SERVIÇOS</h1></div>
+                    <div id="imgserv">
+                        <img src="img/SELO.webp">
+                        <img src="img/GESTÃO-01.webp">
+                    </div>
+                    <div id="imgserv2">
+                        <img src="img/ASSESSORIA.webp">
+                    </div>
+                </div>
+            </section>
+            <section class="bloco" id="diff">
+                <div class="divdiff">
+                    <div class="titdiff"><h1>DIFERENCIAIS</h1></div>
+                    <img src="img/plataforma.webp">
+                    <div>
+                        <ul class="listadiff">
+                            <li><i class="fas fa-recycle"></i>Plataforma Dinâmica</li>
+                            <li><i class="fas fa-recycle"></i>Ferramenta de Cumprimento de Lei</li>
+                            <li><i class="fas fa-recycle"></i>Processos Inteligentes</li>
+                            <li><i class="fas fa-recycle"></i>Gestão Otimizada</li>
+                            <li><i class="fas fa-recycle"></i>Agilidade nas Solicitações de Coleta</li>
+                            <li><i class="fas fa-recycle"></i>Rastreabilidade dos Resíduos</li>
+                            <li><i class="fas fa-recycle"></i>Relatórios Precisos</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="bloco" id="merc">
+                <div id="divmerc">
+                    <div class="titmerc"><h1>MERCADOS</h1></div>
+                    <div class="mercgest">
+                        <div class="gesttit"><h1>GESTÃO/DESTINAÇÃO</h1></div>
+                        <div class="gestimg"><img src="img/CONDOMÍNIOS.webp"><h1>CONDOMÍNIOS</h1></div>
+                        <div class="gestimg"><img src="img/COMÉRCIO.webp"><h1>COMÉRCIO</h1></div>
+                        <div class="gestimg"><img src="img/ÓRGÃO.webp"><h1>ÓRGÃO</h1></div>
+                    </div>
+                    <div class="merclog">
+                        <div class="logtit"><h1>LOGÍSTICA REVERSA</h1></div>
+                        <div class="logimg"><img src="img/INDUSTRIA.webp"><h1>INDUSTRIA</h1></div>
+                    </div>
+                </div>                  
+            </section>
+            <section class="bloco" id="time">
+                <div>
+                    <div>
+                        <div class="imgtime">
+                            <img src="img/Maurilio.png">
+                        </div>
+                        <div>
+                            <h1>Maurilio Correa</h1>
+                            <h1>CEO</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="imgtime">
+                            <img src="Img/Saimon.png">
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="imgtime">
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="imgtime">
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="imgtime">
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bloco" id="cont">
+                <div class="divcont1">
+                    <h1>Mais informações? <br>
+                        entre em contato conosco, <br>
+                        é rapidinho! <br><br><br>
+                    </h1>
+                    <form>
+                        <div>
+                            <input type="text" name="Nome da empresa" id="Nome_da_emp" placeholder="Nome da Empresa">
+                        </div>
+                        <div>
+                            <input type="text" name="Nome" id="Nome" placeholder="Nome">
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <input type="textarea" name="mensagem" id="msg" placeholder="Deixe a sua mensagem." row>
+                        </div>
+                        <div class="btnenviar">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="divcont2">
+                    <div><h1>"Gestão e Logística Reversa de <br>
+                        Resíduos Sólidos Recicláveis"</h1>
+                    </div>
+                    <div class="infocont">
+                        <div class="imgcont">
+                            <i class="fas fa-phone-alt"></i>
+                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div id="contloc">
+                            <ul>
+                                <li>(92) 98139-4469</li>
+                                <li>contato@residuum.com.br</li>
+                                <li>Samsung Ocean Center - <br>
+                                    Ocean Launch <br>
+                                    AV. Darcy Vargas 1200 <br>
+                                    Parque dez de novembro - Manaus/AM</li>
+                            </ul>  
+                        </div>
+                        
+                    </div>    
+                    <div class="social">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
